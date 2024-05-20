@@ -1,0 +1,21 @@
+.productsNav{
+    padding: 20px ;
+    display: flex;
+    width: 50%;
+    margin: 0px auto;
+    justify-content: space-around;
+    border-radius: 0px 0px 50px 50px ;
+    background-color: slategrey;
+    font-size: 22px;
+}
+
+.productsNav a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.productsNav .active{
+    text-decoration: underline;
+    color: black;
+}
